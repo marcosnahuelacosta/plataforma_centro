@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="linkedin.png" alt="" width="100"></a>
+            <div class="search-box">
+                <img src="busqueda.png" alt="" width="25">
+                <input type="text" placeholder="Buscar">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png" alt="" width="20"><span> Inicio</span></a></li>
+                <li><a href=""><img src="usuario.png" alt="" width="20"><span> Redes</span></a></li>
+                <li><a href=""><img src="maletin.png" alt="" width="20"><span> Trabajos</span></a></li>
+                <li><a href=""><img src="chat.png" alt="" width="20"><span> Mensajes</span></a></li>
+                <li><a href=""><img src="camapana.png" alt="" width="20"><span> Notificaciones</span></a></li>
+                
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user1.jpg" class="nav-profile-img" alt="" onclick="toggleMenu()" width="200">
+            </div>
+            
+        </div>
+
+        <!--Dropdown perfil-->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h3>LocalUser</h3>
+                        <a href="perfil.html">Ver mi perfil</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="">
+                    <p>Recibir Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="">
+                    <p>Configuraciones</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="">
+                    <p>Ayuda</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="">
+                    <p>Accesiblidad</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="feedback.png" alt="">
+                    <p>Salir</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="cover-pic.jpg" width="100%" alt="">
+                <div class="profile-container-inner">
+                    <img src="user1.jpg" class="profile-pic" alt="">
+                    <h1>LocalUser</h1>
+                    <b>Web Developer at Microsoft | Former Developer</b>
+                    <p>Buenos Aires, Argentina &middot; <a href="">Contacto</a></p>
+                    <div class="mutual-connection">
+                        <img src="user1.jpg" alt="">
+                        <span>1 Usuario en comun: LocalUser</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="" class="primary-btn"><img src="add.png" alt="">Conectar</a>
+                        <a href=""><img src="chtats.png" alt="">Enviar Mensaje</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Acerca de mi</h2>
+                <p>Descripcion del usuario</p>
+                <a href="" class="see-more-link">Ver mas</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experiencia</h2>
+                <div class="profile-desc-row">
+                    <img src="microsoft.png" alt="">
+                    <div>
+                        <h3>Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2022 - Presente &middot; 1.5 años</b>
+                        <p>Descripcion puesto de trabajo</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="google.png" alt="">
+                    <div>
+                        <h3>Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2022 - Presente &middot; 1.5 años</b>
+                        <p>Descripcion puesto de trabajo</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="slack.png" alt="">
+                    <div>
+                        <h3>Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2022 - Presente &middot; 1.5 años</b>
+                        <p>Descripcion puesto de trabajo</p><hr>
+                    </div>
+                </div>
+                
+              
+                <a href="" class="experience-link">Mostrar otras 7 experiencias</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Educacion</h2>
+                <div class="profile-desc-row">
+                    <img src="uba.png" alt="">
+                    <div>
+                        <h3>Universidad de Buenos Aires</h3>
+                        <b>Nombre de carrera</b>
+                        <b>2018 - 2023</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="uba.png" alt="">
+                    <div>
+                        <h3>Universidad de Buenos Aires</h3>
+                        <b>Nombre de carrera</b>
+                        <b>2018 - 2023</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="uba.png" alt="">
+                    <div>
+                        <h3>Universidad de Buenos Aires</h3>
+                        <b>Nombre de carrera</b>
+                        <b>2018 - 2023</b>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Habilidades</h2>
+                <a href="" class="skills-btn">Metodologias Agiles</a>
+                <a href="" class="skills-btn">Desarrollo Web</a>
+                <a href="" class="skills-btn">React JS</a>
+                <a href="" class="skills-btn">HTML</a>
+                <a href="" class="skills-btn">CSS</a>
+                <a href="" class="skills-btn">JavaScript</a>
+                <a href="" class="skills-btn">Illustrator</a>
+                <a href="" class="skills-btn">Photoshop</a>
+            </div>
+            <div class="profile-description">
+                <h2>Idiomas</h2>
+                <a href="" class="language-btn">Ingles</a>
+                <a href="" class="language-btn">Portugues</a>
+                <a href="" class="language-btn">Frances</a>
+            </div>
+        </div>
+
+
+        <div class="profile-sidebar">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Texto de prueba</p>
+                <div>
+                    <img src="user1.jpg" alt="">
+                    <img src="milogo.jfif" alt="">
+                </div>
+                <b>Busquedas en Globant</b>
+                <a href="#" class="ad-link">Ver Mas</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>Personas que quizas conozcas</h3>
+                <div class="sidebar-people-row">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h2>Other User</h2>
+                        <p>Lider de marketing</p>
+                        <a href="#">Conectar</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h2>Other User</h2>
+                        <p>Lider de marketing</p>
+                        <a href="#">Conectar</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h2>Other User</h2>
+                        <p>Lider de marketing</p>
+                        <a href="#">Conectar</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h2>Other User</h2>
+                        <p>Lider de marketing</p>
+                        <a href="#">Conectar</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user1.jpg" alt="">
+                    <div>
+                        <h2>Other User</h2>
+                        <p>Lider de marketing</p>
+                        <a href="#">Conectar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">Acerca De</a>
+            <a href="#">Accesibilidad</a>
+            <a href="#">FAQ's</a>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">Descarga la App</a>
+            <a href="#">Mas</a>
+            
+            <div class="copyright-msg">
+                <img src="linkedin.png" alt="">
+                <p>Linkedup &#169; 2023. Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
